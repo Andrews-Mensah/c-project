@@ -7,7 +7,7 @@ const bcrypt = require('bcrypt');
 const app = express();
 
 //Assigning a port number
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 7000;
 
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
